@@ -1,10 +1,7 @@
-<script>
-
 var form = document.getElementById("contact-form");
 
 form.addEventListener("submit", function(event) {
-    Event.preventDefault(); 
-    // Prevenir el envío del formulario por defecto
+    Event.preventDefault(); // Prevenir el envío del formulario por defecto
 
     // Obtener los valores de los campos
     var firstName = document.getElementById("first-name").value;
@@ -31,4 +28,4 @@ form.addEventListener("submit", function(event) {
     // Enviar los datos del formulario
     xhr.send("first-name=" + firstName + "&last-name=" + lastName + "&email=" + email + "&start-date=" + startDate + "&insurance-type=" + insuranceType);
 });
-</script>
+

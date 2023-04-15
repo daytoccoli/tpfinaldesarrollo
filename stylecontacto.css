@@ -1,3 +1,90 @@
+
+@import url("https://fonts.cdnfonts.com/css/gotham");
+
+html,
+body {
+height: 100%;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+body {
+margin: 0;
+background: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/dfa1ee09-8585-422e-a32a-067e14159aa0/bvlatuR/std/2880x2400/Homepage-Model-Y-Global-Desktop?quality=auto-medium&amp;format=auto);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+font-family: "Gotham", sans-serif;
+}
+
+a {
+color: #000;
+text-decoration: none;
+}
+.container {
+max-width: 90%;
+margin: auto;
+}
+.nav {
+position: relative;
+}
+.navigation-bar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 0;
+position: relative;
+z-index: 9;
+}
+.item-left svg {
+width: 120px;
+}
+.item-left,
+.item-right {
+flex: 0 0 20%;
+}
+.item-center {
+flex: 0 0 50%;
+display: flex;
+justify-content: center;
+}
+.item-right .menu-list {
+justify-content: end;
+}
+.menu-list {
+padding: 0;
+margin: 0;
+list-style: none;
+display: flex;
+font-weight: 500;
+}
+.menu-list li {
+padding: 4px 8px;
+}
+.menu-list li a {
+align-items: center;
+display: inline-flex;
+margin: 0 8px;
+min-block-size: 24px;
+}
+.menu-backdrop {
+position: absolute;
+top: var(--block-top);
+left: var(--block-left);
+height: var(--block-height);
+width: var(--block-width);
+top: 50%;
+border-radius: 4px;
+transform: translateY(-50%);
+background-color: rgba(0, 0, 0, 0.05);
+backdrop-filter: blur(16px);
+-webkit-backdrop-filter: blur(16px);
+
+opacity: 0;
+visibility: hidden;
+
+transition: 0.5s cubic-bezier(0.75, 0, 0, 1);
+}
+
 * {
     margin: 0%;
     box-sizing: border-box;
@@ -92,7 +179,7 @@ padding: 12px 20px;
 border: none;
 border-radius: 4px;
 cursor: pointer;
-float: right;
+float:right;
 }
 
 
