@@ -11,33 +11,49 @@
     justify-content: flex-end;
     text-align: initial;
 
-    
-
 }
 
-.cont-imagen {
-
-}
-
-
-.familia {
-
-}
 
 .container {
-    min-height: 700px;
+    min-height: 700px 200px;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
 
 }
+section button{
+    display: flex;
+    display: inline-block;
+    background-color: rgb(41, 40, 104);
+    color: rgb(230, 228, 228);
+    border: none;
+    width: 180px;
+    height: 200px;
+    font-size: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 20px;
+    box-shadow: 0px 5px 6px rgba(17, 17, 17, 0.439);
+}
 
+h2{
+    margin: 60px;
+    font-size: 25px;
+    justify-content: center;
+}
+.icon-button i {
+    display: flex;
+    padding: 80px;
+    align-items: center;
+    
+}
 .navbar{
-    width: 80;
+    width: 70;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 5px;
 }
 
 .logo{
@@ -47,9 +63,7 @@
 
 }
 
-.buscar{
 
-}
 
 .navbar ul li {
     list-style: none;
@@ -61,7 +75,7 @@
 .navbar ul li a {
     font-style: inherit;
     text-decoration: none;
-    color: black;
+    
     font-family: sans-serif;
     font-size: 1rem;
 
@@ -87,19 +101,25 @@
 }
 
 main{
-    display: 
+    display: table-row;
 }
 main img{
     width: 100vw; /* la imagen se ajustará al ancho del contenedor */
-    height: 50vh; /* establece la altura máxima de la imagen */
+    height: 60vh; /* establece la altura máxima de la imagen */
     object-fit: cover; /* la imagen se recortará para llenar el contenedor */
     overflow: hidden; /* oculta cualquier parte de la imagen que se extienda más allá de los límites del contenedor */
 
 }
 
 
-
+footer{
+    text-align: center;
+    padding: 20px;
+}
 
 .pie{
+    text-align: center;
+}
+.Redessociales{
     text-align: center;
 }
